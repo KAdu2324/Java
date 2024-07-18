@@ -1,0 +1,72 @@
+package br.com.qwasolucoes.mentoria.implementacoes.logica_programacao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Cenario {
+
+	public static void main(String[] args) {
+		// ex1();
+		// ex2();
+		// ex3();
+		//ex4();
+		/*
+		 
+		 */
+		/*
+		 * 
+		 * 
+		 * /*
+		 * 
+		 */
+
+		/*
+		 * int valor = 5; List<Integer> obterDobrosAteDobroInformado = new
+		 * ArrayList<>(); int[] obterDobrosAteDobro =
+		 * x.obterDobrosAteDobroInformado(valor);
+		 * 
+		 * int[] obterDobrosAteDobroInformado = e.obterDobrosAteDobroInformado(5);
+		 * System.out.println(obterDobrosAteDobroInformado);
+		 */
+
+		/*
+		 * LogicaProgramacaoProvider e = new LogicaProgramacaoProvider();
+		 * 
+		 * int[] obterDobrosAteDobroInformado = e.obterDobrosAteDobroInformado(5);
+		 * System.out.println(obterDobrosAteDobroInformado);
+		 */
+	}
+
+	public static int[] ex4() {
+
+		LogicaProgramacaoProvider logicaProgramacaoProvider = new LogicaProgramacaoProvider();
+		int valor = 5;
+		int[] resultado = logicaProgramacaoProvider.obterDobrosAteDobroInformado(valor);
+		return resultado;
+	}
+
+	public static int[] ex3() {
+
+		LogicaProgramacaoProvider logicaProgramacaoProvider = new LogicaProgramacaoProvider();
+		int valor = 8;
+		int[] resultado = logicaProgramacaoProvider.obterDobrosAteDez(valor);
+		return resultado;
+
+	}
+
+	public static int[] ex2() {
+
+		LogicaProgramacaoProvider logicaProgramacaoProvider = new LogicaProgramacaoProvider();
+		int valor = 10;
+		int[] resultado = logicaProgramacaoProvider.obterDobrosAteMil(valor);
+		return resultado;
+
+	}
+
+	public static int[][] ex1() {
+
+		LogicaProgramacaoProvider logicaProgramacaoProvider = new LogicaProgramacaoProvider();
+		int[][] resultado = logicaProgramacaoProvider.tabuada(2);
+		return resultado;
+	}
+}

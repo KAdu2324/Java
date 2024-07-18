@@ -1,0 +1,22 @@
+package br.com.qwasolucoes.mentoria.testes.logica_programacao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import br.com.qwasolucoes.mentoria.implementacoes.logica_programacao.LogicaProgramacaoProvider;
+
+public class LogicaProgramacaoTest {
+
+	public static void main(String[] args) {
+
+		LogicaProgramacaoProvider x = new LogicaProgramacaoProvider();
+
+		List<String> lista = new ArrayList<String>();
+
+		
+		List<String> listaTextoDuplicados = x.listaTextoDuplicados(lista);
+		int contador = 0;
+		System.out.println("O nome: "+ repetidos + " foi repetido: " + contador);
+
+	}
+}

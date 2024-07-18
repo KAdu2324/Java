@@ -1,0 +1,25 @@
+package br.com.qwasolucoes.mentoria.testes.logica_programacao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import br.com.qwasolucoes.mentoria.implementacoes.logica_programacao.LogicaProgramacaoProvider;
+
+public class LogicaProgramacaoTest {
+
+	public static void main(String[] args) {
+
+		LogicaProgramacaoProvider x = new LogicaProgramacaoProvider();
+
+		int[] valores = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+		
+		int valor = 1;
+		
+		Integer valor1 = x.somarValoresPrimos(valor);
+		System.out.println(" Resultado = "+ valor1);
+		
+		
+
+
+	}
+}

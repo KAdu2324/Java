@@ -1,0 +1,64 @@
+package br.com.qwasolucoes.mentoria.implementacoes.logica_programacao;
+
+public class Cenario {
+
+	public static void main(String[] args) {
+		ex1();
+		/*
+		 * LogicaProgramacaoProvider e = new LogicaProgramacaoProvider(); int valor = 2;
+		 * 
+		 * int[][] tabuada = e.tabuada(valor); for (int i = 0; i < tabuada.length; i++)
+		 * {
+		 * 
+		 * System.out.println(tabuada[i][0] + ", " + tabuada[i][1] + ", " +
+		 * tabuada[i][2]);
+		 * 
+		 * }
+		 */
+		/*
+		 * LogicaProgramacaoProvider x = new LogicaProgramacaoProvider();
+		 * 
+		 * int resultado = 10; int[] obterDobrosAteMil = x.obterDobrosAteMil(resultado);
+		 * for (int i = 0; i <= obterDobrosAteMil.length; i++) { }
+		 */
+
+		/*
+		 * obterDobrosAteDez LogicaProgramacaoProvider e = new
+		 * LogicaProgramacaoProvider();
+		 * 
+		 * int valor = 15; 
+		 * List<Integer> obterDobrosAteDez = new ArrayList<>();
+		 *  int[] dobrosAteDez = x.obterDobrosAteDez(valor);
+		 */
+
+		/*
+		 * int valor = 5; List<Integer> obterDobrosAteDobroInformado = new
+		 * ArrayList<>(); int[] obterDobrosAteDobro =
+		 * x.obterDobrosAteDobroInformado(valor);
+		 * 
+		 * int[] obterDobrosAteDobroInformado = e.obterDobrosAteDobroInformado(5);
+		 * System.out.println(obterDobrosAteDobroInformado);
+		 */
+
+		/*
+		 * LogicaProgramacaoProvider e = new LogicaProgramacaoProvider();
+		 * 
+		 * int[] obterDobrosAteDobroInformado = e.obterDobrosAteDobroInformado(5);
+		 * System.out.println(obterDobrosAteDobroInformado);
+		 */
+	}
+	
+	public static int[] ex2() {
+		
+		LogicaProgramacaoProvider logicaProgramcaoProvider = new LogicaProgramacaoProvider();
+		int [] resultado = logicaProgramcaoProvider.obterDobrosAteMil(10);
+		return resultado;
+		
+	}
+
+	public static int[][] ex1() {
+		LogicaProgramacaoProvider logicaProgramacaoProvider = new LogicaProgramacaoProvider();
+		int[][] resultado = logicaProgramacaoProvider.tabuada(2);
+		return resultado;
+	}
+}

@@ -1,0 +1,32 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+	  public static void main(String[] args) {
+		  
+	     
+	        
+	        Locale.setDefault(Locale.US);
+
+	        Scanner scanner = new Scanner(System.in);
+	        
+	        int codigoPeca1 = scanner.nextInt();
+	        int numeroPeca1 = scanner.nextInt();
+	        double valorPeca1 = scanner.nextDouble();
+	        
+	        int codigoPeca2 = scanner.nextInt();
+	        int numeroPeca2 = scanner.nextInt();
+	        double valorPeca2 = scanner.nextDouble();
+	        
+	        double totalPeca1 = numeroPeca1 * valorPeca1;
+	        double totalPeca2 = numeroPeca2 * valorPeca2;
+	        
+	        double totalValorPeca = totalPeca1 + totalPeca2;
+	        
+	        
+	        
+	        System.out.printf("VALOR A PAGAR: R$ %.2f%n"  , totalValorPeca );
+	        
+	        scanner.close();
+	    }
+}

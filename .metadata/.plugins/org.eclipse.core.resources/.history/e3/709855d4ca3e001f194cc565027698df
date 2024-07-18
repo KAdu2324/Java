@@ -1,0 +1,22 @@
+package br.com.qwasolucoes.mentoria.testes.logica_programacao;
+
+import br.com.qwasolucoes.mentoria.implementacoes.logica_programacao.LogicaProgramacaoProvider;
+
+public class LogicaProgramacaoTest {
+
+	public static void main(String[] args) {
+		
+		LogicaProgramacaoProvider x = new LogicaProgramacaoProvider();
+		
+		
+		int limite = 10; 
+        int multiplo = 3;
+        int parOuImparOuZero = x.somarValoresPosicoesParesMultiplosDe(limite ,multiplo);
+		System.out.println("Resultado = " + parOuImparOuZero);
+		
+		
+	
+	}}
+		   
+		
+	

@@ -1,0 +1,46 @@
+package br.com.qwasolucoes.mentoria.implementacoes.logica_programacao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Cenario {
+
+	public static void main(String[] args) {
+
+		
+		   LogicaProgramacaoProvider e = new LogicaProgramacaoProvider(); int
+		  valor = 10; int[][] tabuada = e.tabuada(-4);
+		 
+
+		/*
+		 * obterDobrosAteMil LogicaProgramacaoProvider e = new
+		 * LogicaProgramacaoProvider(); int[] obterDobrosAteMil = *
+		 * e.obterDobrosAteMil(1500);
+		 */
+
+		/*
+		 * obterDobrosAteDez LogicaProgramacaoProvider e = new
+		 * LogicaProgramacaoProvider();
+		 * 
+		 * int[] dobrosAteDez = e.obterDobrosAteDez(2);
+		 * System.out.println(dobrosAteDez);
+		 */
+		
+		/*
+		 * obterDobrosAteDobroInformado
+		 *  LogicaProgramacaoProvider e = new
+		 * LogicaProgramacaoProvider();
+		 * 
+		 * int[] obterDobrosAteDobroInformado = e.obterDobrosAteDobroInformado(5);
+		 * System.out.println(obterDobrosAteDobroInformado);
+		 */
+		
+		/*
+		 * LogicaProgramacaoProvider e = new LogicaProgramacaoProvider();
+		 * 
+		 * int[] obterDobrosAteDobroInformado = e.obterDobrosAteDobroInformado(5);
+		 * System.out.println(obterDobrosAteDobroInformado);
+		 */
+	}
+
+}

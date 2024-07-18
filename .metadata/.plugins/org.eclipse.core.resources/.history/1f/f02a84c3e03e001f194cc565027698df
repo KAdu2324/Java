@@ -1,0 +1,21 @@
+package br.com.qwasolucoes.mentoria.testes.logica_programacao;
+
+import br.com.qwasolucoes.mentoria.implementacoes.logica_programacao.LogicaProgramacaoProvider;
+
+public class LogicaProgramacaoTest {
+
+	public static void main(String[] args) {
+		
+		LogicaProgramacaoProvider x = new LogicaProgramacaoProvider();
+		
+		
+		int[] valor = {0};
+        Integer parOuImparOuZero = x.somarValoresPrimosPosicoes(valor);
+		System.out.println("Resultado = " + parOuImparOuZero);
+		
+		
+	
+	}}
+		   
+		
+	

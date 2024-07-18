@@ -1,0 +1,23 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+	  public static void main(String[] args) {
+		  
+	     
+	        
+	        Locale.setDefault(Locale.US);
+
+	        Scanner scanner = new Scanner(System.in);
+	        int notaA = scanner.nextInt();
+	        int notaB = scanner.nextInt();
+	        int notaC = scanner.nextInt();
+	        int notaD = scanner.nextInt();
+	        
+	        int diferenca = ((notaA * notaB) - (notaC * notaD));
+
+	        System.out.println("MEDIA = "  + diferenca);
+	        
+	        scanner.close();
+	    }
+}

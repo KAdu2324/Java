@@ -1,0 +1,37 @@
+package br.com.qwasolucoes.mentoria.testes.logica_programacao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import br.com.qwasolucoes.mentoria.implementacoes.logica_programacao.LogicaProgramacaoProvider;
+
+public class LogicaProgramacaoTest {
+
+	public static void main(String[] args) {
+
+		LogicaProgramacaoProvider x = new LogicaProgramacaoProvider();
+
+		List<String> lista = new ArrayList<>();
+
+		lista.add("Manoel");
+		lista.add("carlos");
+		lista.add("Manoel");
+		lista.add("joao");
+		lista.add("Manoel");
+		lista.add("jurandi");
+		lista.add("cesa");
+		
+		List<String> nomes = lista;
+		List<String> listaTextoDuplicados = x.listaTextoDuplicados(nomes);
+		System.out.println(listaTextoDuplicados);
+		
+
+		/*
+		 * List<Integer> lista = new ArrayList<>();
+		 * 
+		 * Integer resultado = 5; Integer listaTextoDuplicados =
+		 * x.somarValores(resultado); System.out.println(listaTextoDuplicados);
+		 */
+
+	}
+}

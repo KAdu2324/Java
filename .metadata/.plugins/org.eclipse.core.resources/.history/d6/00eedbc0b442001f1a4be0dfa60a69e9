@@ -1,0 +1,188 @@
+package br.com.qwasolucoes.mentoria.implementacoes.logica_programacao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Cenario {
+
+	public static void main(String[] args) {
+		ex18();
+
+	}
+
+	public static List<String> ex18() {
+
+		LogicaProgramacaoProvider logicaProgramacaoProvider = new LogicaProgramacaoProvider();
+
+		List<String> nomeLista = new ArrayList<>();
+
+		nomeLista.add("joao");
+		nomeLista.add("CArlos");
+		nomeLista.add("joao");
+		nomeLista.add("almir");
+		nomeLista.add("jose");
+		nomeLista.add("joao");
+
+		List<String> nomes = nomeLista;
+		List<String> resultado = logicaProgramacaoProvider.listaTextoDuplicados(nomes);
+
+		return resultado;
+
+	}
+
+	public static Integer ex17() {
+
+		LogicaProgramacaoProvider logicaProgramacaoProvider = new LogicaProgramacaoProvider();
+		int limite = 1;
+		int resultado = logicaProgramacaoProvider.somarValores(limite);
+		System.out.println(" Resultado = " + resultado);
+		return resultado;
+
+	}
+
+	public static Integer ex16() {
+
+		LogicaProgramacaoProvider logicaProgramacaoProvider = new LogicaProgramacaoProvider();
+		int limite = 1;
+		int resultado = logicaProgramacaoProvider.somarValoresPares(limite);
+		System.out.println(" Resultado = " + resultado);
+		return resultado;
+	}
+
+	public static Integer ex15() {
+
+		LogicaProgramacaoProvider logicaProgramacaoProvider = new LogicaProgramacaoProvider();
+		int limite = 1;
+		int resultado = logicaProgramacaoProvider.somarValoresImpares(limite);
+		System.out.println(" Resultado = " + resultado);
+		return resultado;
+	}
+
+	public static Integer ex14() {
+
+		LogicaProgramacaoProvider logicaProgramacaoProvider = new LogicaProgramacaoProvider();
+		int limite = 1;
+		int resultado = logicaProgramacaoProvider.somarValoresPrimos(limite);
+		System.out.println(" Resultado = " + resultado);
+		return resultado;
+
+	}
+
+	public static Integer ex13() {
+
+		LogicaProgramacaoProvider logicaProgramacaoProvider = new LogicaProgramacaoProvider();
+		int[] limite = { 1, 2, 3, 4, 5, 7, 8, 9 };
+		int resultado = logicaProgramacaoProvider.somarValoresPosicoes(limite);
+		System.out.println(" Resultado = " + resultado);
+		return resultado;
+	}
+
+	public static Integer ex12() {
+
+		LogicaProgramacaoProvider logicaProgramacaoProvider = new LogicaProgramacaoProvider();
+		int[] limite = { 1, 2, 3, 4, 5, 7, 8, 9 };
+		int resultado = logicaProgramacaoProvider.somarValoresParesPosicoes(limite);
+		System.out.println(" Resultado = " + resultado);
+		return resultado;
+	}
+
+	public static Integer ex11() {
+
+		LogicaProgramacaoProvider logicaProgramacaoProvider = new LogicaProgramacaoProvider();
+		int[] limite = { 1, 2, 3, 4, 5, 7, 8, 9 };
+		int resultado = logicaProgramacaoProvider.somarValoresImparesPosicoes(limite);
+		System.out.println(" Resultado = " + resultado);
+		return resultado;
+	}
+
+	public static Integer ex10() {
+
+		LogicaProgramacaoProvider logicaProgramacaoProvider = new LogicaProgramacaoProvider();
+		int[] limite = { 1, 2, 3, 4, 5, 7, 8, 9 };
+		int resultado = logicaProgramacaoProvider.somarValoresPrimosPosicoes(limite);
+		System.out.println(resultado);
+		return resultado;
+	}
+
+	public static Integer ex9() {
+
+		LogicaProgramacaoProvider logicaProgramacaoProvider = new LogicaProgramacaoProvider();
+		int limite = 10;
+		int multiplo = 2;
+		int resultado = logicaProgramacaoProvider.somarValoresPosicoesParesMultiplosDe(limite, multiplo);
+		System.out.println(resultado);
+		return resultado;
+
+	}
+
+	public static boolean ex8() {
+
+		LogicaProgramacaoProvider logicaProgramacaoProvider = new LogicaProgramacaoProvider();
+		int valor = 7;
+		boolean resultado = logicaProgramacaoProvider.multiploDeSete(valor);
+		System.out.println(resultado);
+		return resultado;
+
+	}
+
+	public static String ex7() {
+
+		LogicaProgramacaoProvider logicaProgramacaoProvider = new LogicaProgramacaoProvider();
+		int valor = 6;
+		String resultado = logicaProgramacaoProvider.parOuImpar(valor);
+		System.out.println(resultado);
+		return resultado;
+	}
+
+	public static String ex6() {
+
+		LogicaProgramacaoProvider logicaProgramacaoProvider = new LogicaProgramacaoProvider();
+		int valor = 0;
+		String resultado = logicaProgramacaoProvider.parOuImparOuZero(valor);
+		System.out.println(resultado);
+		return resultado;
+	}
+
+	public static String ex5() {
+
+		LogicaProgramacaoProvider logicaProgramacaoProvider = new LogicaProgramacaoProvider();
+		int valor = 0;
+		String resultado = logicaProgramacaoProvider.parOuImparOuZero(valor);
+		System.out.println(resultado);
+		return resultado;
+	}
+
+	public static int[] ex4() {
+
+		LogicaProgramacaoProvider logicaProgramacaoProvider = new LogicaProgramacaoProvider();
+		int valor = 5;
+		int[] resultado = logicaProgramacaoProvider.obterDobrosAteDobroInformado(valor);
+		return resultado;
+	}
+
+	public static int[] ex3() {
+
+		LogicaProgramacaoProvider logicaProgramacaoProvider = new LogicaProgramacaoProvider();
+		int valor = 8;
+		int[] resultado = logicaProgramacaoProvider.obterDobrosAteDez(valor);
+		return resultado;
+
+	}
+
+	public static int[] ex2() {
+
+		LogicaProgramacaoProvider logicaProgramacaoProvider = new LogicaProgramacaoProvider();
+		int valor = 10;
+		int[] resultado = logicaProgramacaoProvider.obterDobrosAteMil(valor);
+		return resultado;
+
+	}
+
+	public static int[][] ex1() {
+
+		LogicaProgramacaoProvider logicaProgramacaoProvider = new LogicaProgramacaoProvider();
+		int valor = 2;
+		int[][] resultado = logicaProgramacaoProvider.tabuada(valor);
+		return resultado;
+	}
+}

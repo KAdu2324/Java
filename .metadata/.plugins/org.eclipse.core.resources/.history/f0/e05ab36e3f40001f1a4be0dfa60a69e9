@@ -1,0 +1,29 @@
+package br.com.qwasolucoes.mentoria.testes.logica_programacao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import br.com.qwasolucoes.mentoria.implementacoes.logica_programacao.LogicaProgramacaoProvider;
+
+public class LogicaProgramacaoTest {
+
+	public static void main(String[] args) {
+
+		LogicaProgramacaoProvider x = new LogicaProgramacaoProvider();
+
+		List<String> lista = new ArrayList<>();
+		
+		/*
+		 * lista.add("Manoel"); lista.add("Manoel"); lista.add("Manoel");
+		 * lista.add("Manoel"); lista.add("Manoel"); lista.add("Manoel");
+		 * lista.add("João");
+		 */
+
+		int valor = 1;
+		int listaTextoDuplicados = x.somarValoresPrimos(lista);
+		System.out.println(listaTextoDuplicados);
+		
+		
+
+	}
+}

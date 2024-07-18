@@ -1,0 +1,24 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+	  public static void main(String[] args) {
+		  
+	     
+	        
+	        Locale.setDefault(Locale.US);
+
+	        Scanner scanner = new Scanner(System.in);
+	        int funcionario = scanner.nextInt();
+	        float salario = scanner.nextFloat();
+	        float ValorHora = scanner.nextFloat();
+	        
+	        
+	        float salary = salario * ValorHora;
+	        
+	        System.out.println("NUMBER = "  + funcionario);
+	        System.out.println("SALARY = "  + salary);
+	        
+	        scanner.close();
+	    }
+}

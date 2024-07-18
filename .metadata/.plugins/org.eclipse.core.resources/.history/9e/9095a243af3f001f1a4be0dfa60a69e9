@@ -1,0 +1,25 @@
+package br.com.qwasolucoes.mentoria.testes.logica_programacao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import br.com.qwasolucoes.mentoria.implementacoes.logica_programacao.LogicaProgramacaoProvider;
+
+public class LogicaProgramacaoTest {
+
+	public static void main(String[] args) {
+
+		LogicaProgramacaoProvider x = new LogicaProgramacaoProvider();
+
+		List<String> lista = new ArrayList<String>();
+
+		lista.add("Manoel");
+		lista.add("Manoel");
+		lista.add("João");	
+		
+		String textos = "Manoel";
+		String contador = x.listaTextoDuplicados(textos) ;
+		System.out.println("O nome: "+ textos + " foi repetido: " + contador);
+
+	}
+}
